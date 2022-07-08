@@ -1,0 +1,80 @@
+
+@media screen and (max-width:390px){
+    .header{
+        height: 140px;
+        width: 279px;
+        font-size: 8px;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        width: 279px;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .icons{
+        display: flex;
+        margin-left: -320px;
+        margin-top: 8px;
+        
+    }
+    .search{
+        width: 244px;
+        margin-left: 55px;
+        margin-right: 58px;
+        margin-top: -13px;
+    }
+
+    .button {
+        border: none;
+    cursor: pointer;
+    margin-left: -320px;
+    margin-top: -5px;
+    position: fixed;
+    }
+    .homeImg {
+        margin-left: -14px;
+        margin-top: 141px;
+        width: 279px;
+    }
+    .homeImg2 {
+        margin-top: -7px;
+        height: 50px;
+        width: 279px;
+    }
+    .left a{
+        padding: 5px;
+        
+    }
+    .left img{
+        height: 30px;
+    width: 50px;
+    padding-left: -25px;
+    /* margin: 1px; */
+    margin-left: 11px;
+    }
+.hfimg{
+    margin: 4px;
+}
+
+.ul{
+    display: flex;
+    margin-left: -38px;
+    /* padding: 3px; */
+    list-style: none;
+    margin-top: 6px;
+}
+.section3{
+    margin-top: -100px;
+    flex-direction: column;
+}
+.section4 img{
+    width: 279px;
+    height: 37px;
+}
+.footer{
+    font-size: 9px;
+}
+
+}

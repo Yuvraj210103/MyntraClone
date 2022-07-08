@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 15px;
+    position: fixed;
+    
+
+}
+.navbar{
+    display: flex;
+    
+   
+}
+.left{
+    display: flex;
+    text-align: center;
+}
+.ul{
+    display: flex;
+    margin: 2px;
+    padding: 3px;
+    list-style: none;
+    
+}
+.icons{
+    position: absolute;
+}
+.left a{
+    position: relative;
+    padding: 16px 13px;
+    margin: 6px 1px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.left a:hover::after{
+    width: 100%;
+}
+.left a::after{
+    content: "";
+    position: absolute;
+    background-color: aqua;
+    height: 3px;
+    width:0%;
+    left:0;
+    bottom: -10px;
+}
+
+.left img{
+    height: 43px;
+    width: 60px;
+    padding: 12px 5px;
+    margin: 1px 27px;
+}
+.right{
+    float: right;
+    display: flex;
+}
+.button{
+    border: none;
+    cursor: pointer;
+    margin-left: -310px;
+    margin-top: 25px;
+    position: fixed;
+
+    
+}
+.button img{
+    height: 20px;
+    width: 23px;
+    
+    
+}
+
+
+.search{
+    padding: 2px 12px;
+    /* margin: 22px 35px; */
+    margin-left: 64px;
+    margin-top: 19px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(245, 243, 241);
+    
+}
+.profile{
+    font-size: 12px;
+    padding: 2px 2px;
+    /* margin: 26px 7px; */
+    margin-left: 427px;
+    margin-top: 40px;
+    position: fixed;
+    cursor: pointer;
+}
+.profile img{
+    position: fixed;
+    margin-top: -25px;
+    margin-left: -30px;
+    height: 27px;
+    width: 25px;
+    cursor: pointer;
+
+}
+.wishlist{
+    font-size: 12px;
+    position: fixed;
+    margin-left: 504px;
+    margin-top: 42px;
+    cursor: pointer;
+    
+}
+.wishlist img{
+    position: fixed;
+    margin-top: -22px;
+    margin-left: -33px;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+    
+}
+.bag{
+    font-size: 12px;
+    position: fixed;
+    margin-left: 591px;
+    margin-top: 42px;
+    cursor: pointer;
+}
+.bag img{
+    position: fixed;
+    margin-top: -23px;
+    margin-left: -21px;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+
+
