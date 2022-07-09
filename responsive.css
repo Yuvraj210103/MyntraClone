@@ -2,26 +2,30 @@
 @media screen and (max-width:390px){
     .header{
         height: 140px;
-        width: 279px;
+        width: 100vw;
         font-size: 8px;
+        align-items: center;
+        
     }
     .navbar{
         flex-direction: column;
         align-items: center;
-        width: 279px;
+        width: 100vw;
+       margin-left: -16px;
+        
     }
     .right{
         flex-direction: column;
     }
     .icons{
         display: flex;
-        margin-left: -320px;
+        margin-left: -300px;
         margin-top: 8px;
         
     }
     .search{
         width: 244px;
-        margin-left: 55px;
+        margin-left: 97px;
         margin-right: 58px;
         margin-top: -13px;
     }
@@ -34,28 +38,33 @@
     position: fixed;
     }
     .homeImg {
-        margin-left: -14px;
-        margin-top: 141px;
-        width: 279px;
+        margin-left: -13px;
+    margin-top: 141px;
+    width: 100vw;
     }
     .homeImg2 {
         margin-top: -7px;
-        height: 50px;
-        width: 279px;
+    height: 50px;
+    width: 100vw;
     }
     .left a{
         padding: 5px;
         
+    }
+    .homeImg3 {
+        margin-top: -5px;
+        width: 100vw;
     }
     .left img{
         height: 30px;
     width: 50px;
     padding-left: -25px;
     /* margin: 1px; */
-    margin-left: 11px;
+    margin-left: 34px;
     }
 .hfimg{
-    margin: 4px;
+    margin-top: 25px;
+    width: 50vw;
 }
 
 .ul{
@@ -66,8 +75,11 @@
     margin-top: 6px;
 }
 .section3{
-    margin-top: -100px;
+    margin-top: 30px;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 .section4 img{
     width: 279px;

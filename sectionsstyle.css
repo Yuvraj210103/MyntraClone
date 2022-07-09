@@ -12,7 +12,9 @@
 .homeImg{
     margin-left: 12px;
     margin-top: 63px;
+    
 }
+
 .homeImg2{
     margin-top: -7px;
     height: 207px;
@@ -27,6 +29,8 @@
 }
 .section3{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .hfimg{
     height: 209px;
