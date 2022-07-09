@@ -10,15 +10,17 @@
     
 }
 .homeImg{
-    margin-left: 12px;
+    margin-left: -34px;
     margin-top: 63px;
+    width: 100vw;
+
     
 }
 
 .homeImg2{
     margin-top: -7px;
     height: 207px;
-    width: 100%;
+    width: 100vw;
 }
 .section2{
     margin: auto;
@@ -29,8 +31,7 @@
 }
 .section3{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 .hfimg{
     height: 209px;

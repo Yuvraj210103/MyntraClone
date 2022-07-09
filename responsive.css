@@ -1,5 +1,5 @@
 
-@media screen and (max-width:390px){
+@media screen and (max-width:450px){
     .header{
         height: 140px;
         width: 100vw;
@@ -82,8 +82,8 @@
     
 }
 .section4 img{
-    width: 279px;
-    height: 37px;
+    width: 100vw;
+    height: 43px;
 }
 .footer{
     font-size: 9px;
